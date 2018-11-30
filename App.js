@@ -24,7 +24,7 @@ export default class App extends Component<Props> {
         resizeMode="cover"
         source={require('./dummyBackground.jpg')}
         style={styles.container}>
-        <Text style={styles.welcome}>Voip Test Main Screen</Text>
+        <Text style={styles.welcome}>Waiting For Calls</Text>
       </ImageBackground>
     );
   }

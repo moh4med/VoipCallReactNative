@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        startActivity(new Intent(this,NewCallActivity.class));
+        startService(new Intent(this, MyService.class));
     }
     @Override
     protected String getMainComponentName() {
